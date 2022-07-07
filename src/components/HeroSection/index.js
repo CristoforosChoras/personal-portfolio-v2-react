@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import Typewriter from "typewriter-effect";
 import Video from "../../videos/video3.mp4";
 import { Button } from "../ButtonElement";
 import {
@@ -11,6 +12,9 @@ import {
   HeroBtnWrapper,
   ArrowForward,
   ArrowRight,
+  Writter,
+  NameText,
+  GreetingText,
 } from "./HeroElements";
 
 function HeroSection() {
@@ -26,12 +30,24 @@ function HeroSection() {
         <VideoBg autoPlay loop muted src={Video} type="video/mp4" />
       </HeroBg>
       <HeroContent>
-        <HeroH1>My name is Chris</HeroH1>
-        <HeroP>
-          I am a web developer living germany,Berlin.currently i am studying in
-          DCI,in this course i am trying to gain more knowledge to achieve my
-          goals
-        </HeroP>
+        <Writter>
+          <HeroH1>
+            <GreetingText>Welcome, I'am</GreetingText>
+            <NameText>Christoforos</NameText>
+          </HeroH1>
+          <HeroP>
+            <Typewriter
+              options={{
+                cursor: "_",
+                strings: ["I am a Junior web developer Based in Germany"],
+                autoStart: true,
+                delay: 95,
+                loop: true,
+                pauseFor: 2500,
+              }}
+            />
+          </HeroP>
+        </Writter>
         <HeroBtnWrapper>
           <Button
             to="contactme"
