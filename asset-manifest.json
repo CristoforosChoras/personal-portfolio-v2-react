@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/personal-portofolio-v2-react/static/css/main.d7da34c1.css",
-    "main.js": "/personal-portofolio-v2-react/static/js/main.6793c689.js",
+    "main.js": "/personal-portofolio-v2-react/static/js/main.e8a20a3d.js",
     "static/media/video3.mp4": "/personal-portofolio-v2-react/static/media/video3.d28831bc5d9eeb4a9a44.mp4",
     "static/media/Weather-app.png": "/personal-portofolio-v2-react/static/media/Weather-app.0f8522e314a1e5a35f83.png",
     "static/media/svg-1.svg": "/personal-portofolio-v2-react/static/media/svg-1.31d9faad64713465aacf088b3f1c0e63.svg",
@@ -16,10 +16,10 @@
     "static/media/git.svg": "/personal-portofolio-v2-react/static/media/git.f7d6283131a6d68c1621028aa2c3e904.svg",
     "static/media/tailwind.svg": "/personal-portofolio-v2-react/static/media/tailwind.d22b29a2028c438a02033f41d11e899b.svg",
     "main.d7da34c1.css.map": "/personal-portofolio-v2-react/static/css/main.d7da34c1.css.map",
-    "main.6793c689.js.map": "/personal-portofolio-v2-react/static/js/main.6793c689.js.map"
+    "main.e8a20a3d.js.map": "/personal-portofolio-v2-react/static/js/main.e8a20a3d.js.map"
   },
   "entrypoints": [
     "static/css/main.d7da34c1.css",
-    "static/js/main.6793c689.js"
+    "static/js/main.e8a20a3d.js"
   ]
 }
