@@ -1,8 +1,8 @@
-import React, { useState } from "react";
+import React from "react";
 import Typewriter from "typewriter-effect";
 import Video from "../../videos/video3.mp4";
-import { Button } from "../ButtonElement";
-import { NavBtnLink } from "../Navbar/NavBarElements";
+// import { Button } from "../ButtonElement";
+// import { NavBtnLink } from "../Navbar/NavBarElements";
 import {
   HeroContainer,
   HeroBg,
@@ -11,19 +11,17 @@ import {
   HeroH1,
   HeroP,
   HeroBtnWrapper,
-  ArrowForward,
-  ArrowRight,
   Writter,
   NameText,
   GreetingText,
 } from "./HeroElements";
 
 function HeroSection() {
-  const [hover, setHover] = useState(false);
+  // const [hover, setHover] = useState(false);
 
-  const onHover = () => {
-    setHover(!hover);
-  };
+  // const onHover = () => {
+  //   setHover(!hover);
+  // };
 
   return (
     <HeroContainer>
