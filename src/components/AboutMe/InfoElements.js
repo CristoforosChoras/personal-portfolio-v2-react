@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import{Link as LinkS} from "react-scroll"
 
 export const InfoContainer = styled.div`
   color: #fff;
@@ -96,3 +97,26 @@ export const Img = styled.img`
   margin: 0 0 10px 0;
   padding-right: 0;
 `;
+
+export const ButtonMore = styled(LinkS)`
+  border-radius: 50px;
+  background-color: ${({primary})=>(primary ? "#01BF71" : "#010606")};
+  white-space: nowrap;
+  padding: ${({big})=>(big ? "14px 48px":"12px 30px")};
+  color: ${({dark})=>(dark ? "white":"white")};
+  font-size: ${({fontBig})=>(fontBig?"20px":"16px")};
+  outline: none;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.2s ease-in-out;
+  text-decoration: none;
+
+
+  &:hover{
+    transition: all 0.2s ease-in-out;
+    background-color: ${({primary})=>(primary ? "black" : "#01BF71")};
+  }
+  `

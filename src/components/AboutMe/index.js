@@ -1,5 +1,5 @@
 import React from "react";
-import { Button } from "../ButtonElement";
+
 import {
   InfoContainer,
   InfoWrapper,
@@ -13,6 +13,7 @@ import {
   BtnWrap,
   Img,
   ImgWrap,
+  ButtonMore
 } from "./InfoElements";
 
 function InfoSection({
@@ -30,6 +31,7 @@ function InfoSection({
   headline,
   dark,
   dark2,
+  
 }) {
   return (
     <>
@@ -42,8 +44,8 @@ function InfoSection({
                 <Heading lightText={lightText}>{headline}</Heading>
                 <Subtitle darkText={darkText}>{description}</Subtitle>
                 <BtnWrap>
-                  <Button
-                    to="home"
+                  <ButtonMore
+                    to="more"
                     smooth={true}
                     duration={500}
                     spy={true}
@@ -54,15 +56,15 @@ function InfoSection({
                     dark2={dark2 ? 1 : 0}
                   >
                     {buttonLabel}
-                  </Button>
+                  </ButtonMore>
                 </BtnWrap>
               </TextWrapper>
             </Column1>
-            <Column2>
+            <Column2 >
               <ImgWrap>
                 <Img src={img} alt={alt}></Img>
               </ImgWrap>
-            </Column2>
+            </Column2> 
           </InfoRow>
         </InfoWrapper>
       </InfoContainer>

@@ -1,18 +1,18 @@
 import styled from "styled-components";
 
 export const ToolsContainer = styled.div`
-  height: fit-content;
+  height: 1000px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   background: #010606;
 
-  @media screen and (max-width: 768px) {
-    height: fit-content;
+  @media screen and (max-width: 980px) {
+    height: 1300px;
   }
-  @media screen and (max-width: 480px) {
-    height: fit-content;
+  @media screen and (max-width: 680px) {
+    height: 1600px;
   }
 `;
 
@@ -23,17 +23,16 @@ export const ToolsWrapper = styled.div`
   grid-template-columns: 1fr 1fr 1fr 1fr;
   align-items: center;
   grid-gap: 16px;
-  
 
-  @media screen and (max-width: 1200px) {
+  @media screen and (max-width: 980px) {
     grid-template-columns: 1fr 1fr 1fr;
   }
-  @media screen and (max-width: 1000px) {
+  /* @media screen and (max-width: 1000px) {
     grid-template-columns: 1fr 1fr;
-  }
+  } */
 
   @media screen and (max-width: 680px) {
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
     padding: 0 0;
   }
 `;
@@ -53,7 +52,6 @@ export const ToolCard = styled.div`
   &:hover {
     transform: scale(1.02);
     transition: all 0.2s ease-in-out;
-    cursor: pointer;
   }
 `;
 
@@ -61,7 +59,9 @@ export const ToolIcon = styled.img`
   height: 180px;
   width: 160px;
   margin-bottom: 10px;
-
+  @media screen and (max-width: 780px) {
+    width: 100px;
+  }
   @media screen and (max-width: 480px) {
     width: 100px;
   }
@@ -79,11 +79,6 @@ export const ToolsH1 = styled.h1`
 `;
 
 export const ToolsH2 = styled.h2`
-  font-size: 1rem;
-  margin-bottom: 64px;
-`;
-
-export const ToolsP = styled.p`
   font-size: 1rem;
   margin-bottom: 64px;
 `;

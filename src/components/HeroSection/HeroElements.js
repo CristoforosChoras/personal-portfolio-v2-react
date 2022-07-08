@@ -85,7 +85,7 @@ export const NameText = styled.h1`
   }
 `;
 
-export const HeroP = styled.p`
+export const HeroP = styled.div`
   margin-top: 24px;
   color: white;
   font-size: 24px;
@@ -115,3 +115,4 @@ export const ArrowRight = styled(MdKeyboardArrowRight)`
   margin-left: 8px;
   font-size: 20px;
 `;
+

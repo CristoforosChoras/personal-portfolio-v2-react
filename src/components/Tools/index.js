@@ -14,53 +14,44 @@ import {
   ToolCard,
   ToolIcon,
   ToolsH2,
-  ToolsP,
 } from "./ToolsElements";
 
 function Tools() {
   return (
-    <ToolsContainer>
+    <ToolsContainer id="tools">
       <ToolsH1>My tech stack</ToolsH1>
       <ToolsWrapper>
-        <ToolCard>
+        <ToolCard >
           <ToolIcon src={Icon1}></ToolIcon>
           <ToolsH2>HTML</ToolsH2>
-          <ToolsP>learn the past years</ToolsP>
         </ToolCard>
         <ToolCard>
           <ToolIcon src={Icon2}></ToolIcon>
           <ToolsH2>CSS</ToolsH2>
-          <ToolsP>learn the past years</ToolsP>
         </ToolCard>
         <ToolCard>
           <ToolIcon src={Icon3}></ToolIcon>
           <ToolsH2>javaScript</ToolsH2>
-          <ToolsP>learn the past years</ToolsP>
         </ToolCard>
         <ToolCard>
           <ToolIcon src={Icon4}></ToolIcon>
           <ToolsH2>react</ToolsH2>
-          <ToolsP>learn the past years</ToolsP>
         </ToolCard>
         <ToolCard>
           <ToolIcon src={Icon5}></ToolIcon>
           <ToolsH2>Tailwind</ToolsH2>
-          <ToolsP>learn the past years</ToolsP>
         </ToolCard>
         <ToolCard>
           <ToolIcon src={Icon6}></ToolIcon>
           <ToolsH2>Bootstrap</ToolsH2>
-          <ToolsP>learn the past years</ToolsP>
         </ToolCard>{" "}
         <ToolCard>
           <ToolIcon src={Icon7}></ToolIcon>
           <ToolsH2>Material-ui</ToolsH2>
-          <ToolsP>learn the past years</ToolsP>
         </ToolCard>
         <ToolCard>
           <ToolIcon src={Icon8}></ToolIcon>
           <ToolsH2>Git</ToolsH2>
-          <ToolsP>learn the past years</ToolsP>
         </ToolCard>
       </ToolsWrapper>
     </ToolsContainer>

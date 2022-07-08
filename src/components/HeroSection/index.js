@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Typewriter from "typewriter-effect";
 import Video from "../../videos/video3.mp4";
 import { Button } from "../ButtonElement";
+import { NavBtnLink } from "../Navbar/NavBarElements";
 import {
   HeroContainer,
   HeroBg,
@@ -32,7 +33,7 @@ function HeroSection() {
       <HeroContent>
         <Writter>
           <HeroH1>
-            <GreetingText>Welcome, I'am</GreetingText>
+            <GreetingText>Welcome, I am</GreetingText>
             <NameText>Christoforos</NameText>
           </HeroH1>
           <HeroP>
@@ -49,15 +50,16 @@ function HeroSection() {
           </HeroP>
         </Writter>
         <HeroBtnWrapper>
-          <Button
-            to="contactme"
+        
+          {/* <Button
+            to="/contact"
             onMouseEnter={onHover}
             onMouseLeave={onHover}
             primary="true"
             dark="true"
           >
             Contact Me{hover ? <ArrowForward /> : <ArrowRight />}
-          </Button>
+          </Button> */}
         </HeroBtnWrapper>
       </HeroContent>
     </HeroContainer>

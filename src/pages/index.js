@@ -5,6 +5,8 @@ import HeroSection from '../components/HeroSection'
 import InfoSection from '../components/AboutMe'
 import { homeObjOne, homeObjTwo } from '../components/AboutMe/Data'
 import Tools from '../components/Tools'
+import Footer from '../components/Footer'
+import ProjectSection from '../components/ProjectSection'
 
 const Home = () => {
   const [isOpen,setIsOpen] = useState(false)
@@ -22,9 +24,10 @@ const Home = () => {
         <NavBar toggle={toggle}></NavBar>
         <HeroSection/>
         <InfoSection {...homeObjOne}/>
-        
         <InfoSection {...homeObjTwo}/>
         <Tools></Tools> 
+        <ProjectSection></ProjectSection>
+        <Footer></Footer>
     </>
   )
 }
