@@ -15,13 +15,13 @@ primary:true,
 darkText:false
 }
 export const homeObjTwo = {
-	id: "Tools",
+	id: "more",
 	lightBg: true,
 	lightText: false,
 	lightTextDesc: false,
-	topLine: "My tech stack",
-	headline: "Technologies",
-	description: "I'm Looking for a position to apply my experience in Web Development and help your business grow by building innovative and secure web solutions with an open eye to modern aesthetics & design.",
+	topLine: "What I bring with",
+	headline: "Skills",
+	description: "By learning the foundations to become a full stack web developer, I discovered the love for coding, solving challenges and quickly getting accustomed to new programming languages and documentations.Teamwork  By working for big as well as small-size companies, I developed team working skills which go behold simply being able to work together with other colleagues.",
 	buttonLabel: "Contact me",
 	imgStart:true,
 	img: require("../../images/svg-2.svg").default,

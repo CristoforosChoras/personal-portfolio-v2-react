@@ -81,7 +81,7 @@ export const NameText = styled.h1`
     font-size: 60px;
   }
   @media screen and (max-width: 480px) {
-    font-size: 50px;
+    font-size: 40px;
   }
 `;
 
@@ -95,7 +95,7 @@ export const HeroP = styled.p`
     font-size: 24px;
   }
   @media screen and (max-width: 480px) {
-    font-size: 13px;
+    font-size: 10px;
   }
 `;
 
