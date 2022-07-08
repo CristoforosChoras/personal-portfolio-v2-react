@@ -1,7 +1,7 @@
 import React from "react";
 import { ToolCard, ToolIcon, ToolsH2, ToolsWrapper } from "../Tools/ToolsElements";
-import { ProjectContainer ,Projecth1 } from "./ProjectSectionElements";
-import Icon1 from "../../images/html.svg";
+import { ProjectContainer ,Projecth1, } from "./ProjectSectionElements";
+import Icon1 from "../../images/Weather-app.png";
 
 function ProjectSection() {
   return (
