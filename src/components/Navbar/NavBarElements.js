@@ -30,10 +30,11 @@ export const NavBarContainer = styled.div`
 `;
 
 export const NavLogo = styled(LinkR)`
+font-family: 'Nothing You Could Do', cursive;
   color: white;
   justify-self: flex-start;
   cursor: pointer;
-  font-size: 1.5rem;
+  font-size: 2.4rem;
   display: flex;
   align-items: center;
   margin-left: 24px;
@@ -95,6 +96,7 @@ align-items: center;
 `
 
 export const NavBtnLink = styled(LinkR)`
+
 border-radius:50px ;
 background-color: #84d2f6;
 white-space: nowrap;
@@ -113,4 +115,5 @@ text-decoration: none;
   color: black;
 }
 `
+export const ImgLogo = styled.img`` 
 

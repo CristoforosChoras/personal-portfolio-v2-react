@@ -1,18 +1,18 @@
+
 import styled from "styled-components";
 
 export const ProjectContainer = styled.div`
-  background: #e9ecef;
-  height: 1500px;
+  height: 1800px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 
   @media screen and (max-width: 1200px) {
-    height: 2200px;
+    height: 2400px;
   }
   @media screen and (max-width: 780px) {
-    height: 1900px;
+    height: 2200px;
   }
 `;
 
@@ -44,14 +44,15 @@ export const ProjectWrapper = styled.div`
 `;
 
 export const ProjectCard = styled.div`
-  background: #fff;
+  background: #0c090d;
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
-  align-items: center;
+  justify-content: center;
+  align-items: flex-start;
   border-radius: 10px;
-  height: 650px;
+  height: 720px;
   padding: 30px;
+  border-radius: 30px;
   box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
   transition: all 0.2s ease-in-out;
 
@@ -59,14 +60,25 @@ export const ProjectCard = styled.div`
     transform: scale(1.02);
     transition: all 0.2s ease-in-out;
   }
+  @media screen and (max-width: 1000px) {
+    
+    width: 600px;
+  }
   @media screen and (max-width: 780px) {
-    height: 500px;
+    height: 600px;
+    width: 500px;
+  }
+  @media screen and (max-width: 580px) {
+    
+    width: 350px;
   }
 `;
 
 export const ProjectIcon = styled.img`
-  height: 480px;
-  width: 460px;
+align-self: center;
+  height: 600px;
+  width: 400px;
+  border-radius: 30px;
   margin-bottom: 10px;
   @media screen and (max-width: 780px) {
     width: 280px;
@@ -79,25 +91,46 @@ export const ProjectIcon = styled.img`
 `;
 
 export const ProjectH2 = styled.h2`
+  color: #e9ecef;
   font-size: 1rem;
-  margin-bottom: 20px;
+  margin-bottom: 25px;
 `;
-export const ProjectP = styled.p``;
+
+export const ProjectDescription = styled.p`
+  text-align: left;
+  color: #e9ecef;
+  font-size: 12px;
+  margin-bottom: 25px;
+`;
+export const ProjectP = styled.p`
+  color: #e9ecef;
+  font-size: 25px;
+  align-self: flex-start;
+  margin-bottom: 25px;
+`;
 
 export const TechWrapper = styled.div`
   width: 100%;
   height: 50px;
   display: flex;
+  justify-content: flex-start;
   gap: 10px;
 `;
 
 export const Techs = styled.div`
+  width: fit-content;
+ padding: 0 20px ;
+  height: 35px;
   color: #e9ecef;
   background-color: #0d47a1;
   display: flex;
   align-items: center;
   justify-content: center;
   border-radius: 10px;
-  padding: 10px 25px;
+  /* padding: 10px 45px; */
   margin-top: 10px;
+  @media screen and (max-width: 580px) {
+    font-size: 14px;
+    
+  }
 `;

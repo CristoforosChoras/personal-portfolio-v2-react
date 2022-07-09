@@ -11,6 +11,7 @@ function App() {
       <Routes>
         <Route path="/" element={ <Home /> } exact />
         <Route path="/contact" element={ <ContactPage /> }  exact/>
+        
       </Routes>
     </Router>
   );

@@ -26,7 +26,7 @@ const Home = () => {
         <InfoSection {...homeObjOne}/>
         <InfoSection {...homeObjTwo}/>
         <Tools></Tools> 
-        <ProjectSection></ProjectSection>
+        <ProjectSection ></ProjectSection>
         <Footer></Footer>
     </>
   )
