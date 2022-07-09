@@ -36,7 +36,6 @@ export const FooterLinksWrapper = styled.div`
 `;
 export const FooterLinkItems = styled.div`
   align-items: center;
-  border: 3px white solid;
   text-align: left;
   width: 160px;
   box-sizing: border-box;
