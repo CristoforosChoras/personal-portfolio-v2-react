@@ -1,8 +1,7 @@
 import React from "react";
 import Typewriter from "typewriter-effect";
 import Video from "../../videos/video3.mp4";
-// import { Button } from "../ButtonElement";
-// import { NavBtnLink } from "../Navbar/NavBarElements";
+
 import {
   HeroContainer,
   HeroBg,
@@ -10,19 +9,12 @@ import {
   HeroContent,
   HeroH1,
   HeroP,
-  HeroBtnWrapper,
   Writter,
   NameText,
   GreetingText,
 } from "./HeroElements";
 
 function HeroSection() {
-  // const [hover, setHover] = useState(false);
-
-  // const onHover = () => {
-  //   setHover(!hover);
-  // };
-
   return (
     <HeroContainer>
       <HeroBg>
@@ -47,18 +39,6 @@ function HeroSection() {
             />
           </HeroP>
         </Writter>
-        <HeroBtnWrapper>
-        
-          {/* <Button
-            to="/contact"
-            onMouseEnter={onHover}
-            onMouseLeave={onHover}
-            primary="true"
-            dark="true"
-          >
-            Contact Me{hover ? <ArrowForward /> : <ArrowRight />}
-          </Button> */}
-        </HeroBtnWrapper>
       </HeroContent>
     </HeroContainer>
   );

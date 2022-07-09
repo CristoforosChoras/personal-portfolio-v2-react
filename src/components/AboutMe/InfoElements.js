@@ -3,12 +3,16 @@ import{Link as LinkS} from "react-scroll"
 
 export const InfoContainer = styled.div`
   color: #fff;
-  background: ${({ lightBg }) => (lightBg ? "#f9f9f9" : "#010606")};
+  background: ${({ lightBg }) => (lightBg ? "#e9ecef" : "#0c090d")};
 
   @media screen and (max-width: 768px) {
     padding: 100px 0;
   }
 `;
+
+// 495057
+
+// adb5bd
 
 export const InfoWrapper = styled.div`
   display: grid;
@@ -54,8 +58,8 @@ export const TextWrapper = styled.div`
 `;
 
 export const TopLine = styled.p`
-  color: #01bf71;
-  font-size: 16px;
+  color: #0d47a1;
+  font-size: 22px;
   line-height: 16px;
   font-weight: 700;
   letter-spacing: 1.4px;
@@ -68,7 +72,7 @@ export const Heading = styled.h1`
   font-size: 38px;
   line-height: 1.1;
   font-weight: 600;
-  color: ${({ lightText }) => (lightText ? "#f7f8fa" : "#010606")};
+  color: ${({ lightText }) => (lightText ? "#e9ecef" : "#0c090d")};
 
   @media screen and(max-width:480px) {
     font-size: 32px;
@@ -80,7 +84,7 @@ export const Subtitle = styled.p`
   margin-bottom: 35px;
   font-size: 18px;
   line-height: 24px;
-  color: ${({ darkText }) => (darkText ? "#010606" : "#fff")};
+  color: ${({ darkText }) => (darkText ? "#0c090d" : "#e9ecef")};
 `;
 
 export const BtnWrap = styled.div`
@@ -100,7 +104,7 @@ export const Img = styled.img`
 
 export const ButtonMore = styled(LinkS)`
   border-radius: 50px;
-  background-color: ${({primary})=>(primary ? "#01BF71" : "#010606")};
+  background-color: ${({primary})=>(primary ? "#0c090d" : "#0d47a1")};
   white-space: nowrap;
   padding: ${({big})=>(big ? "14px 48px":"12px 30px")};
   color: ${({dark})=>(dark ? "white":"white")};
@@ -117,6 +121,6 @@ export const ButtonMore = styled(LinkS)`
 
   &:hover{
     transition: all 0.2s ease-in-out;
-    background-color: ${({primary})=>(primary ? "black" : "#01BF71")};
+    background-color: ${({primary})=>(primary ? "#0d47a1" : "#0c090d")};
   }
   `

@@ -1,32 +1,41 @@
 import React from "react";
-import { ToolCard, ToolIcon, ToolsH2, ToolsWrapper } from "../Tools/ToolsElements";
-import { ProjectContainer ,Projecth1, } from "./ProjectSectionElements";
-import Icon1 from "../../images/Weather-app.png";
+import Icon1 from "../../images/weather-app.png";
+import Icon2 from "../../images/to-do-list.png"
+
+import {
+  ProjectContainer,
+  ProjectH1,
+  ProjectWrapper,
+  ProjectCard,
+  ProjectIcon,
+  ProjectH2,
+  ProjectP,
+} from "./ProjectSectionElements";
 
 function ProjectSection() {
   return (
     <ProjectContainer>
-    <Projecth1>My Projects</Projecth1>
-    <ToolsWrapper>
-      <ToolCard>
-        <ToolIcon src={Icon1}></ToolIcon>
-        <ToolsH2>HTML</ToolsH2>
-      </ToolCard>
-      <ToolCard>
-        <ToolIcon src={Icon1}></ToolIcon>
-        <ToolsH2>HTML</ToolsH2>
-      </ToolCard>
-      <ToolCard>
-        <ToolIcon src={Icon1}></ToolIcon>
-        <ToolsH2>HTML</ToolsH2>
-      </ToolCard>
-      <ToolCard>
-        <ToolIcon src={Icon1}></ToolIcon>
-        <ToolsH2>HTML</ToolsH2>
-      </ToolCard>
-      </ToolsWrapper>
+      <ProjectH1>My Projects</ProjectH1>
+      <ProjectWrapper>
+        <ProjectCard>
+          <ProjectIcon src={Icon1}></ProjectIcon>
+          <ProjectH2>Weather App</ProjectH2>
+          <ProjectP>React.js Tailwind</ProjectP>
+        </ProjectCard>
+        <ProjectCard>
+          <ProjectIcon src={Icon2}></ProjectIcon>
+          <ProjectH2>To do list</ProjectH2>
+          <ProjectP>React.js Tailwind</ProjectP>
+        </ProjectCard>
+        <ProjectCard>
+          <ProjectIcon src={Icon1}></ProjectIcon>
+          <ProjectH2>Weather App</ProjectH2>
+          <ProjectP>React.js Tailwind</ProjectP>
+        </ProjectCard>
+      </ProjectWrapper>
     </ProjectContainer>
   );
 }
 
 export default ProjectSection;
+

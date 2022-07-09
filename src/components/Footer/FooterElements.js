@@ -27,16 +27,16 @@ export const FooterLinkContainer = styled.div`
 `;
 export const FooterLinksWrapper = styled.div`
   display: flex;
+  align-items: center;
+  justify-content: center;
 
   @media screen and (max-width: 820px) {
     flex-direction: column;
   }
 `;
 export const FooterLinkItems = styled.div`
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  margin: 16px;
+  align-items: center;
+  border: 3px white solid;
   text-align: left;
   width: 160px;
   box-sizing: border-box;
@@ -49,6 +49,6 @@ export const FooterLinkItems = styled.div`
   }
 `;
 export const FooterLinkTittle = styled.h1`
-
+font-size: 18px;
 
 `;
