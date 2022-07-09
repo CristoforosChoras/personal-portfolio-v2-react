@@ -21,7 +21,7 @@ function ProjectSection() {
     <ProjectContainer>
       <ProjectH1>My Projects</ProjectH1>
       <ProjectWrapper>
-        <ProjectCard to="/https://github.com/CristoforosChoras/weather-web-app-react">
+        <ProjectCard >
           <ProjectIcon src={Icon1}></ProjectIcon>
           <ProjectH2>Weather App</ProjectH2>
           <ProjectDescription>

@@ -8,10 +8,9 @@ export const FooterContainer = styled.div`
 export const FooterWrap = styled.div`
   padding: 48px 24px;
   display: flex;
-
   justify-content: center;
   align-items: center;
   max-width: 1100px;
-  margin: 0 auto;
+
  
 `;
