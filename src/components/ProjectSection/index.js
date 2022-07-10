@@ -18,7 +18,7 @@ import {
 
 function ProjectSection() {
   return (
-    <ProjectContainer>
+    <ProjectContainer id="project">
       <ProjectH1>My Projects</ProjectH1>
       <ProjectWrapper>
         <ProjectCard >
