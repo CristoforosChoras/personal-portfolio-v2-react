@@ -1,11 +1,11 @@
 import styled from "styled-components";
 import { Link as LinkR } from "react-router-dom";
-import{Link as LinkS} from "react-scroll"
+import { Link as LinkS } from "react-scroll";
 
 export const Nav = styled.nav`
-  background: #0c090d;
-  height: 5rem;
-  /* margin-top: -5rem; */
+  background: ${({ scrollNav }) => (scrollNav ? "#000" : "transparent")};
+  height: 80px;
+  margin-top: -80px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -30,7 +30,7 @@ export const NavBarContainer = styled.div`
 `;
 
 export const NavLogo = styled(LinkR)`
-font-family: 'Nothing You Could Do', cursive;
+  font-family: "Nothing You Could Do", cursive;
   color: white;
   justify-self: flex-start;
   cursor: pointer;
@@ -43,77 +43,74 @@ font-family: 'Nothing You Could Do', cursive;
 `;
 
 export const MobileIcon = styled.div`
-display: none;
+  display: none;
 
-@media screen and (max-width: 768px) {
-
-display: block;
-position: absolute;
-top:0;
-right: 0;
-transform: translate(-100%, 60%);
-font-size: 1.8rem;
-cursor: pointer;
-color: white;
-
-}`
+  @media screen and (max-width: 768px) {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(-100%, 60%);
+    font-size: 1.8rem;
+    cursor: pointer;
+    color: white;
+  }
+`;
 
 export const NavMenu = styled.ul`
-display: flex;
-align-items: center;
-list-style: none;
-text-align: center;
-margin-right: -22px;
+  display: flex;
+  align-items: center;
+  list-style: none;
+  text-align: center;
+  margin-right: -22px;
 
-@media screen and (max-width: 768px) {
-  display: none;
-}
-`
+  @media screen and (max-width: 768px) {
+    display: none;
+  }
+`;
 
-export const NavItem = styled.li` 
-height: 5rem;
-`
+export const NavItem = styled.li`
+  height: 5rem;
+`;
 
-export const NavLinks = styled(LinkS)` 
-color: white;
-display: flex;
-align-items: center;
-text-decoration: none;
-padding: 0 1rem;
-height: 100%;
-cursor: pointer;
-&.active{
-  border-bottom:3px solid blue;
-}
-`
-export const NavBtn = styled.nav`  
-display: flex;
-align-items: center;
+export const NavLinks = styled(LinkS)`
+  color: white;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  padding: 0 1rem;
+  height: 100%;
+  cursor: pointer;
+  &.active {
+    border-bottom: 3px solid blue;
+  }
+`;
+export const NavBtn = styled.nav`
+  display: flex;
+  align-items: center;
 
-@media screen and (max-width: 768px){
-  display: none;
-}
-`
+  @media screen and (max-width: 768px) {
+    display: none;
+  }
+`;
 
 export const NavBtnLink = styled(LinkR)`
-
-border-radius:50px ;
-background-color: #84d2f6;
-white-space: nowrap;
-padding: 10px 22px;
-color: black;
-font-size: 16px;
-outline: none;
-border: none;
-cursor: pointer;
-transition: all 0.2s ease-in-out;
-text-decoration: none;
-
-&:hover{
-  transition: all 0.2 ease-in-out;
-  background-color: white;
+  border-radius: 50px;
+  background-color: #84d2f6;
+  white-space: nowrap;
+  padding: 10px 22px;
   color: black;
-}
-`
-export const ImgLogo = styled.img`` 
+  font-size: 16px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  text-decoration: none;
 
+  &:hover {
+    transition: all 0.2 ease-in-out;
+    background-color: white;
+    color: black;
+  }
+`;
+export const ImgLogo = styled.img``;

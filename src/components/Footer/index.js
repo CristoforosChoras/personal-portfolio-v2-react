@@ -1,12 +1,13 @@
 import React from "react";
 import { SocialIcon } from "react-social-icons";
 
-import { FooterContainer, FooterWrap } from "./FooterElements";
+import { FooterContainer, FooterWrap,SocialWrapper ,WebSiteRigths } from "./FooterElements";
 
 function Footer() {
   return (
     <FooterContainer>
       <FooterWrap>
+      <SocialWrapper>
         <SocialIcon url="https://twitter.com/c_choras" />
         <SocialIcon
           bgColor="white"
@@ -18,6 +19,8 @@ function Footer() {
           bgColor="white"
           url="https://github.com/CristoforosChoras"
         />
+        </SocialWrapper>
+        <WebSiteRigths>Chris © {new Date().getFullYear()} all icons by unDraw & SVGrepo</WebSiteRigths>
       </FooterWrap>
     </FooterContainer>
   );
