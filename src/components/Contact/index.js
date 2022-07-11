@@ -32,19 +32,19 @@ function Contact() {
         <ContactInfo>
           <MailWrapper>
             <MailIcon>
-              <AiOutlineMail color="black" size={35}></AiOutlineMail>:
+              <AiOutlineMail color="black" size={36}></AiOutlineMail>:
             </MailIcon>
             <MailText>Chrisotpher.choras@yahoo.com</MailText>
           </MailWrapper>
           <TelWrapper>
             <TelIcon>
-              <ImPhone color="black" size={35}></ImPhone>:
+              <ImPhone color="black" size={36}></ImPhone>:
             </TelIcon>
             <TelText>+49 1795349367</TelText>
           </TelWrapper>
           <LocationWrapper>
             <LocationIcon>
-              <ImLocation2 color="black" size={35}></ImLocation2>:
+              <ImLocation2 color="black" size={36}></ImLocation2>:
             </LocationIcon>
             <LocationText>Bitterfeld-Wolfen 06766</LocationText>
           </LocationWrapper>
