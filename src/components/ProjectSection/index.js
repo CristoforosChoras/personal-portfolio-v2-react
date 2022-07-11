@@ -21,7 +21,10 @@ function ProjectSection() {
     <ProjectContainer id="project">
       <ProjectH1>My Projects</ProjectH1>
       <ProjectWrapper>
-        <ProjectCard >
+        <ProjectCard
+          href="https://github.com/CristoforosChoras/weather-web-app-react"
+          target="_blank"
+        >
           <ProjectIcon src={Icon1}></ProjectIcon>
           <ProjectH2>Weather App</ProjectH2>
           <ProjectDescription>
@@ -34,11 +37,15 @@ function ProjectSection() {
             <Techs>Tailwind</Techs>
           </TechWrapper>
         </ProjectCard>
-        <ProjectCard>
+        <ProjectCard
+          href="https://github.com/CristoforosChoras/to-do-list-react"
+          target="_blank"
+        >
           <ProjectIcon src={Icon2}></ProjectIcon>
           <ProjectH2>To do list</ProjectH2>
           <ProjectDescription>
-            a to do list of things that one wants to get done or that need to get done
+            a to do list of things that one wants to get done or that need to
+            get done
           </ProjectDescription>
           <ProjectP>Technologies</ProjectP>
           <TechWrapper>
@@ -47,7 +54,10 @@ function ProjectSection() {
             <Techs>MaterialUI</Techs>
           </TechWrapper>
         </ProjectCard>
-        <ProjectCard>
+        <ProjectCard
+          href="https://github.com/CristoforosChoras/personal-portfolio-v2-react"
+          target="_blank"
+        >
           <ProjectIcon src={Icon3}></ProjectIcon>
           <ProjectH2>Portfolio Project</ProjectH2>
           <ProjectDescription>

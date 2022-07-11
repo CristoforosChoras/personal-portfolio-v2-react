@@ -43,7 +43,7 @@ export const ProjectWrapper = styled.div`
   }
 `;
 
-export const ProjectCard = styled.div`
+export const ProjectCard = styled.a`
   background: #0c090d;
   display: flex;
   flex-direction: column;
@@ -55,6 +55,8 @@ export const ProjectCard = styled.div`
   border-radius: 30px;
   box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
   transition: all 0.2s ease-in-out;
+  cursor: pointer;
+  text-decoration: none;
 
   &:hover {
     transform: scale(1.02);
