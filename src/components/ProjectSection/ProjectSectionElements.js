@@ -1,4 +1,3 @@
-
 import styled from "styled-components";
 
 export const ProjectContainer = styled.div`
@@ -63,7 +62,6 @@ export const ProjectCard = styled.a`
     transition: all 0.2s ease-in-out;
   }
   @media screen and (max-width: 1000px) {
-    
     width: 600px;
   }
   @media screen and (max-width: 780px) {
@@ -71,13 +69,12 @@ export const ProjectCard = styled.a`
     width: 500px;
   }
   @media screen and (max-width: 580px) {
-    
     width: 350px;
   }
 `;
 
 export const ProjectIcon = styled.img`
-align-self: center;
+  align-self: center;
   height: 600px;
   width: 400px;
   border-radius: 30px;
@@ -121,7 +118,7 @@ export const TechWrapper = styled.div`
 
 export const Techs = styled.div`
   width: fit-content;
- padding: 0 20px ;
+  padding: 0 20px;
   height: 35px;
   color: #e9ecef;
   background-color: #0d47a1;
@@ -133,6 +130,5 @@ export const Techs = styled.div`
   margin-top: 10px;
   @media screen and (max-width: 580px) {
     font-size: 14px;
-    
   }
 `;

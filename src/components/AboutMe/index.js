@@ -45,7 +45,7 @@ function InfoSection({
                 <Subtitle darkText={darkText}>{description}</Subtitle>
                 <BtnWrap>
                   <ButtonMore
-                    to="more"
+                    to="skills"
                     smooth={true}
                     duration={500}
                     spy={true}

@@ -3,7 +3,7 @@ export const homeObjOne = {
   lightBg: false,
   lightText: true,
   lightTextDesc: false,
-  topLine: "More about me",
+  topLine: "about me",
   headline:
     "I'm an enthusiastic career changer joining the coding war as Junior Web Developer.",
   description:
@@ -17,14 +17,14 @@ export const homeObjOne = {
   darkText: false,
 };
 export const homeObjTwo = {
-  id: "more",
+  id: "skills",
   lightBg: true,
   lightText: false,
   lightTextDesc: false,
   topLine: "What I bring with",
   headline: "Skills",
   description:
-    "By learning the foundations to become a full stack web developer, I discovered the love for coding, solving challenges and quickly getting accustomed to new programming languages and documentations.Teamwork  By working for big as well as small-size companies, I developed team working skills which go behold simply being able to work together with other colleagues.",
+    "By learning the foundations to become a full stack web developer, I discovered the love for coding, solving challenges and quickly getting accustomed to new programming languages and documentations.By working for big as well as small-size companies, I developed team working skills which go behold simply being able to work together with other colleagues.",
   buttonLabel: "Contact me",
   imgStart:true,
   img: require("../../images/svg-2.svg").default,

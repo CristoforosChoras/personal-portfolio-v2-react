@@ -2,6 +2,7 @@ import React from "react";
 import { useEffect } from "react";
 import { useState } from "react";
 import { FaBars } from "react-icons/fa";
+import { animateScroll as scroll } from "react-scroll";
 
 import {
   Nav,
@@ -25,17 +26,21 @@ const NavBar = ({ toggle }) => {
       setScrollNav(false);
     }
   };
-  useEffect(()=>{
-    window.addEventListener("scroll",changeNav)
-  }, [])
+  useEffect(() => {
+    window.addEventListener("scroll", changeNav);
+  }, []);
 
-
+  const toggleHome = () => {
+    scroll.scrollToTop();
+  };
 
   return (
     <>
       <Nav scrollNav={scrollNav}>
         <NavBarContainer>
-          <NavLogo to="/">Chris</NavLogo>
+          <NavLogo to="/" onClick={toggleHome}>
+            Chris
+          </NavLogo>
           <MobileIcon onClick={toggle}>
             <FaBars />
           </MobileIcon>
@@ -44,13 +49,47 @@ const NavBar = ({ toggle }) => {
               <NavLinks to="/">Home</NavLinks>
             </NavItem>
             <NavItem>
-              <NavLinks to="about">About Me</NavLinks>
+              <NavLinks
+                to="about"
+                smooth={true}
+                duration={500}
+                spy={true}
+                exact={"true"}
+                offset={-80}
+              >
+                About Me
+              </NavLinks>
             </NavItem>
             <NavItem>
-              <NavLinks to="tools">Tools</NavLinks>
+              <NavLinks
+                to="skills"
+                smooth={true}
+                duration={500}
+                spy={true}
+                exact={"true"}
+                offset={-80}
+              >
+                Skills
+              </NavLinks>
             </NavItem>
             <NavItem>
-              <NavLinks to="project">Projects</NavLinks>
+              <NavLinks
+                to="tools"
+                smooth={true}
+                duration={500}
+                spy={true}
+                exact={"true"}
+                offset={-80}
+              >
+                Tools
+              </NavLinks>
+            </NavItem>
+            <NavItem>
+              <NavLinks to="project" smooth={true}
+                duration={500}
+                spy={true}
+                exact={"true"}
+                offset={-80}>Projects</NavLinks>
             </NavItem>
           </NavMenu>
           <NavBtn>
