@@ -9,9 +9,8 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={ <Home /> } exact />
+        <Route exact path="/" element={ <Home /> }  />
         <Route path="/contact" element={ <ContactPage /> }  exact/>
-        
       </Routes>
     </Router>
   );

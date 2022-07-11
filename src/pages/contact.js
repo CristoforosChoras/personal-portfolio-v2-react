@@ -1,15 +1,14 @@
-import React from 'react'
-import Contact from '../components/Contact/'
-import LogoContact from '../components/Contact/LogoContact'
+import React from "react";
+import Contact from "../components/Contact/";
+import ScrollToTop from "../components/ScrollToTop";
 
-
-function ContactPage({toggle}) {
+function ContactPage() {
   return (
     <>
-    <LogoContact></LogoContact>
-    <Contact></Contact>
+      <ScrollToTop></ScrollToTop> 
+      <Contact></Contact>
     </>
-  )
+  );
 }
 
-export default ContactPage
+export default ContactPage;
