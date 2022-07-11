@@ -53,7 +53,7 @@ export const ProjectCard = styled.a`
   height: 720px;
   padding: 30px;
   border-radius: 30px;
-  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 20px 30px rgba(0, 0, 0, 0.2);
   transition: all 0.2s ease-in-out;
   cursor: pointer;
   text-decoration: none;
