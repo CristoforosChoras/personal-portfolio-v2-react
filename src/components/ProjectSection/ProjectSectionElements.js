@@ -126,7 +126,6 @@ export const Techs = styled.div`
   align-items: center;
   justify-content: center;
   border-radius: 10px;
-  /* padding: 10px 45px; */
   margin-top: 10px;
   @media screen and (max-width: 580px) {
     font-size: 14px;

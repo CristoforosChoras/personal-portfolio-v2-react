@@ -2,7 +2,7 @@ import styled from "styled-components";
 import { MdKeyboardArrowRight, MdArrowForward } from "react-icons/md";
 
 export const HeroContainer = styled.div`
-  background-color: #212529;
+  background-color: #0c090d;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -63,7 +63,7 @@ export const Writter = styled.div`
 `;
 
 export const HeroH1 = styled.div`
-  color: white;
+  color: #e9ecef;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -88,7 +88,7 @@ export const NameText = styled.h1`
 
 export const HeroP = styled.div`
   margin-top: 24px;
-  color: white;
+  color: #e9ecef;
   font-size: 24px;
   text-align: left;
   max-width: 600px;

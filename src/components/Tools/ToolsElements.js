@@ -6,7 +6,7 @@ export const ToolsContainer = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: #010606;
+  background: #0c090d;
 
   @media screen and (max-width: 980px) {
     height: 1300px;
@@ -38,7 +38,7 @@ export const ToolsWrapper = styled.div`
 `;
 
 export const ToolCard = styled.div`
-  background: #fff;
+  background: #e9ecef;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -69,7 +69,7 @@ export const ToolIcon = styled.img`
 
 export const ToolsH1 = styled.h1`
   font-size: 2.5rem;
-  color: #fff;
+  color: #e9ecef;
   margin-top: 40px;
   margin-bottom: 50px;
 

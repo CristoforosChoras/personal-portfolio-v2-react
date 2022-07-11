@@ -3,7 +3,7 @@ import { Link as LinkR } from "react-router-dom";
 import { Link as LinkS } from "react-scroll";
 
 export const Nav = styled.nav`
-  background: ${({ scrollNav }) => (scrollNav ? "#000" : "transparent")};
+  background: ${({ scrollNav }) => (scrollNav ? "#0c090d" : "transparent")};
   height: 80px;
   margin-top: -80px;
   display: flex;
@@ -31,7 +31,7 @@ export const NavBarContainer = styled.div`
 
 export const NavLogo = styled(LinkR)`
   font-family: "Nothing You Could Do", cursive;
-  color: white;
+  color: #e9ecef;
   justify-self: flex-start;
   cursor: pointer;
   font-size: 2.4rem;
@@ -74,7 +74,7 @@ export const NavItem = styled.li`
 `;
 
 export const NavLinks = styled(LinkS)`
-  color: white;
+  color: #e9ecef;
   display: flex;
   align-items: center;
   text-decoration: none;
@@ -99,7 +99,7 @@ export const NavBtnLink = styled(LinkR)`
   background-color: #84d2f6;
   white-space: nowrap;
   padding: 10px 22px;
-  color: black;
+  color: #0c090d;
   font-size: 16px;
   outline: none;
   border: none;
@@ -110,7 +110,7 @@ export const NavBtnLink = styled(LinkR)`
   &:hover {
     transition: all 0.2 ease-in-out;
     background-color: white;
-    color: black;
+    color: #0c090d;
   }
 `;
-export const ImgLogo = styled.img``;
+

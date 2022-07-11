@@ -1,8 +1,14 @@
 import React from 'react'
+import Contact from '../components/Contact/'
+import LogoContact from '../components/Contact/LogoContact'
 
-function ContactPage() {
+
+function ContactPage({toggle}) {
   return (
-    <div></div>
+    <>
+    <LogoContact></LogoContact>
+    <Contact></Contact>
+    </>
   )
 }
 

@@ -2,7 +2,7 @@ import styled from "styled-components";
 import{Link as LinkS} from "react-scroll"
 
 export const InfoContainer = styled.div`
-  color: #fff;
+  color: #e9ecef;
   background: ${({ lightBg }) => (lightBg ? "#e9ecef" : "#0c090d")};
 
   @media screen and (max-width: 768px) {
@@ -10,9 +10,7 @@ export const InfoContainer = styled.div`
   }
 `;
 
-// 495057
 
-// adb5bd
 
 export const InfoWrapper = styled.div`
   display: grid;
@@ -104,11 +102,11 @@ export const Img = styled.img`
 `;
 
 export const ButtonMore = styled(LinkS)`
-  border-radius: 50px;
+  border-radius: 12px;
   background-color: ${({primary})=>(primary ? "#0c090d" : "#0d47a1")};
   white-space: nowrap;
   padding: ${({big})=>(big ? "14px 48px":"12px 30px")};
-  color: ${({dark})=>(dark ? "white":"white")};
+  color: ${({dark})=>(dark ? "#e9ecef":"#0c090d")};
   font-size: ${({fontBig})=>(fontBig?"20px":"16px")};
   outline: none;
   border: none;
@@ -122,6 +120,6 @@ export const ButtonMore = styled(LinkS)`
 
   &:hover{
     transition: all 0.2s ease-in-out;
-    background-color: ${({primary})=>(primary ? "#0d47a1" : "#0c090d")};
+    background-color: ${({primary})=>(primary ? "#0d47a1" : "#e9ecef")};
   }
   `
