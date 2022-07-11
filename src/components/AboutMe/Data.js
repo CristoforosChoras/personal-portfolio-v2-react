@@ -8,6 +8,7 @@ export const homeObjOne = {
     "I'm an enthusiastic career changer joining the coding war as Junior Web Developer.",
   description:
     "I'm Looking for a position to apply my experience in Web Development and help your business grow by building innovative and secure web solutions with an open eye to modern aesthetics & design.",
+  buttonDisplay: true,
   buttonLabel: "More about me",
   imgStart: false,
   img: require("../../images/svg-1.svg").default,
@@ -25,8 +26,9 @@ export const homeObjTwo = {
   headline: "Skills",
   description:
     "By learning the foundations to become a full stack web developer, I discovered the love for coding, solving challenges and quickly getting accustomed to new programming languages and documentations.By working for big as well as small-size companies, I developed team working skills which go behold simply being able to work together with other colleagues.",
+    buttonDisplay:false,
   buttonLabel: "Contact me",
-  imgStart:true,
+  imgStart: true,
   img: require("../../images/svg-2.svg").default,
   alt: "tools",
   dark: true,

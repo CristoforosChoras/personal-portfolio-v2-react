@@ -13,7 +13,7 @@ import {
   BtnWrap,
   Img,
   ImgWrap,
-  ButtonMore
+  ButtonMore,
 } from "./InfoElements";
 
 function InfoSection({
@@ -31,7 +31,7 @@ function InfoSection({
   headline,
   dark,
   dark2,
-  
+  buttonDisplay,
 }) {
   return (
     <>
@@ -44,27 +44,29 @@ function InfoSection({
                 <Heading lightText={lightText}>{headline}</Heading>
                 <Subtitle darkText={darkText}>{description}</Subtitle>
                 <BtnWrap>
-                  <ButtonMore
-                    to="skills"
-                    smooth={true}
-                    duration={500}
-                    spy={true}
-                    exact="true"
-                    offset={-80}
-                    primary={primary ? 0 : 1}
-                    dark={dark ? 1 : 0}
-                    dark2={dark2 ? 1 : 0}
-                  >
-                    {buttonLabel}
-                  </ButtonMore>
+                  {buttonDisplay && (
+                    <ButtonMore
+                      to="skills"
+                      smooth={true}
+                      duration={500}
+                      spy={true}
+                      exact="true"
+                      offset={-80}
+                      primary={primary ? 0 : 1}
+                      dark={dark ? 1 : 0}
+                      dark2={dark2 ? 1 : 0}
+                    >
+                      {buttonLabel}
+                    </ButtonMore>
+                  )}
                 </BtnWrap>
               </TextWrapper>
             </Column1>
-            <Column2 >
+            <Column2>
               <ImgWrap>
                 <Img src={img} alt={alt}></Img>
               </ImgWrap>
-            </Column2> 
+            </Column2>
           </InfoRow>
         </InfoWrapper>
       </InfoContainer>
