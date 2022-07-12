@@ -5,7 +5,7 @@
 
 ---
 
-![Screenshot from Project](../personal-portofolio-react/src/images/portfolio.png)
+![Screenshot from Project](./src/images/portfolio.png)
 
 #### Navigation
 
