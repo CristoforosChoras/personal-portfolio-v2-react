@@ -35,7 +35,7 @@ function Tools() {
         </ToolCard>
         <ToolCard>
           <ToolIcon src={Icon4}></ToolIcon>
-          <ToolsH2>react</ToolsH2>
+          <ToolsH2>React</ToolsH2>
         </ToolCard>
         <ToolCard>
           <ToolIcon src={Icon5}></ToolIcon>
