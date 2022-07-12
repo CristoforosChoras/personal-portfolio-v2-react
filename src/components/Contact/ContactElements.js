@@ -2,13 +2,16 @@ import { Link as LinkR } from "react-router-dom";
 import styled from "styled-components";
 
 export const ContactContainer = styled.div`
-  height: 100vh;
+height: 100vh;
   background-color: #0c090d;
   color: #e9ecef;
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 10px 10px;
+  @media screen and (max-width: 1080px){
+    height: 1000px;
+  }
 `;
 export const HomeIcon = styled(LinkR)`
   font-family: "Nothing You Could Do", cursive;
@@ -30,9 +33,9 @@ export const ContactH1 = styled.h1`
 
 export const ContactWrapper = styled.div`
   width: 100%;
-  
   display: flex;
   justify-content: space-evenly;
+  padding: 0 40px;
   @media screen and (max-width: 1000px) {
     height: 100%;
     flex-direction: column;
@@ -45,7 +48,9 @@ export const ContactInfo = styled.div`
   color:  #e9ecef;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: center;
+  gap: 20px;
+  padding: 0 10px;
 
   @media screen and (max-width: 480px) {
     width: 280px;
@@ -53,9 +58,9 @@ export const ContactInfo = styled.div`
 `;
 export const MailWrapper = styled.div`
   width: 100%;
-  height: 50px;
+  height: 45px;
   border-radius: 10px;
-  background-color: #3c3a3d;
+  background-color: #222831;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -77,8 +82,8 @@ export const MailIcon = styled.div`
 
 export const LocationWrapper = styled.div`
   width: 100%;
-  height: 50px;
-  background-color: #3c3a3d;
+  height: 45px;
+  background-color: #222831;
   border-radius: 10px;
   display: flex;
   justify-content: space-between;
@@ -98,8 +103,8 @@ export const LocationText = styled.p`
 
 export const TelWrapper = styled.div`
   width: 100%;
-  height: 50px;
-  background-color: #3c3a3d;
+  height: 45px;
+  background-color: #222831;
   border-radius: 10px;
   display: flex;
   justify-content: space-between;
@@ -118,8 +123,9 @@ export const TelText = styled.p`
 `;
 export const LineDisplay = styled.div`
 align-self: center;
-  height: 300px;
+  height: 280px;
   border-left: 1px #e9ecef solid;
+  opacity: 0.5;
 
   @media screen and (max-width: 1000px) {
     display: none;
@@ -137,29 +143,35 @@ export const ContactFormWrapper = styled.form`
 `;
 
 export const FullName = styled.input`
-  background-color: #3c3a3d;
+  background-color: #222831;
   height: 35px;
   width: 280px;
   border-radius: 10px;
+  border: none;
 `;
 export const Email = styled.input`
-  background-color: #3c3a3d;
+  background-color: #222831;
   height: 35px;
   width: 280px;
   border-radius: 10px;
+  border: none;
 `;
 export const Subject = styled.input`
-  background-color: #3c3a3d;
+  background-color: #222831;
   height: 35px;
   width: 280px;
   border-radius: 10px;
+  border: none;
+  
 `;
 export const TextArea = styled.textarea`
-  background-color: #3c3a3d;
+  background-color: #222831;
   border-radius: 10px;
+  border: none;
+  color:  #e9ecef;
 `;
 export const SubmitBtnForm = styled.button`
-  background-color: #3c3a3d;
+  background-color: #222831;
   color:  #e9ecef;
   height: 30px;
   width: 150px;
@@ -173,7 +185,7 @@ export const SubmitBtnForm = styled.button`
     transform: scale(1.04);
     transition: all 0.2s ease-in-out;
     background-color:  #e9ecef;
-    color: #3c3a3d;
+    color: #222831;
     
   }
 `;

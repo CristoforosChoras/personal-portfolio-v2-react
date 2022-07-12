@@ -37,8 +37,7 @@ function Contact() {
 
     emailjs
       .sendForm(
-        "service_pap46jm",
-        "template_3yju9vt",
+        "service_pap46jm","template_3yju9vt",
         form.current,
         "mZEvW8o6nKvNq_BrM"
       )
@@ -50,6 +49,7 @@ function Contact() {
           console.log(error.text);
         }
       );
+      e.target.reset()
    
   };
   return (
@@ -79,23 +79,23 @@ function Contact() {
           </LocationWrapper>
         </ContactInfo>
         <LineDisplay></LineDisplay>
-        <ContactFormWrapper ref={form}>
+        <ContactFormWrapper ref={form} onSubmit={sendEmail}>
           <FullName
             type="text"
             name="user_name"
-            placeholder="Full Name"
+            placeholder="   Full Name"
             required
           ></FullName>
           <Email
             type="email"
-            name="user_email"
-            placeholder="Your E-mail"
+            name="email"
+            placeholder="   Your E-mail"
             required
           ></Email>
           <Subject
             type="text"
-            name="Subject"
-            placeholder="Subject"
+            name="subject"
+            placeholder="   subject"
             required
           ></Subject>
           <TextArea
@@ -105,7 +105,7 @@ function Contact() {
             cols={30}
             rows={10}
           ></TextArea>
-          <SubmitBtnForm type="submit" onSubmit={sendEmail}  >
+          <SubmitBtnForm type="submit" value="Send"  >
             Send Message
           </SubmitBtnForm>
         </ContactFormWrapper>

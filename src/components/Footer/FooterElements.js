@@ -19,13 +19,17 @@ export const FooterWrap = styled.div`
   margin: 0 auto;
 `;
 export const SocialWrapper = styled.div`
-  width: fit-content;
+  width: 400px;
   display: flex;
+  justify-content: space-evenly;
+  
+  
 `;
 export const WebSiteRigths = styled.div`
   text-align: center;
+  font-size: 10px;
   color: #fff;
   width: 250px;
   height: 40px;
-  margin-top: 20px;
+  margin-top: 50px;
 `;
