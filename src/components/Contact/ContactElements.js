@@ -148,6 +148,14 @@ export const FullName = styled.input`
   width: 280px;
   border-radius: 10px;
   border: none;
+  padding: 0 10px;
+  &:focus {
+    border: none;
+   outline: none;
+   color:#e9ecef ;
+   padding: 0 10px;
+   
+}
 `;
 export const Email = styled.input`
   background-color: #222831;
@@ -155,13 +163,33 @@ export const Email = styled.input`
   width: 280px;
   border-radius: 10px;
   border: none;
+  padding: 0 10px;
+  &:focus {
+    background-color: #222831;
+    border: none;
+   outline: none;
+   color:#e9ecef ;
+   padding: 0 10px;
+   
+}
+
 `;
 export const Subject = styled.input`
+
   background-color: #222831;
   height: 35px;
   width: 280px;
   border-radius: 10px;
   border: none;
+  padding: 0 10px;
+
+  &:focus {
+    border: none;
+   outline: none;
+   color:#e9ecef ;
+   padding: 0 10px;
+   
+}
   
 `;
 export const TextArea = styled.textarea`
@@ -169,6 +197,14 @@ export const TextArea = styled.textarea`
   border-radius: 10px;
   border: none;
   color:  #e9ecef;
+  padding: 5px 10px;
+  &:focus {
+    border: none;
+   outline: none;
+   color:#e9ecef ;
+   padding: 5px 10px;
+   
+}
 `;
 export const SubmitBtnForm = styled.button`
   background-color: #222831;
