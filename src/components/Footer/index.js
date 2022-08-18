@@ -14,7 +14,6 @@ function Footer() {
       <FooterWrap>
         <SocialWrapper>
           <SocialIcon target="_blank" url="https://twitter.com/c_choras" />
-
           <SocialIcon
             target="_blank"
             bgColor="white"

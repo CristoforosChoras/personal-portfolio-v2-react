@@ -190,6 +190,7 @@ export const Subject = styled.input`
    padding: 0 10px;
    
 }
+
   
 `;
 export const TextArea = styled.textarea`
@@ -205,6 +206,7 @@ export const TextArea = styled.textarea`
    padding: 5px 10px;
    
 }
+
 `;
 export const SubmitBtnForm = styled.button`
   background-color: #222831;

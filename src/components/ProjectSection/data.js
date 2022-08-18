@@ -10,7 +10,7 @@ const projectInfoData = [
     tech2: "Tailwind",
   },
   {
-    link: "https://github.com/CristoforosChoras/personal-portfolio-v2-react",
+    link: "https://github.com/CristoforosChoras/to-do-list-react",
     target: "_blank",
     img: require("../../images/to-do-list.png"),
     heading: "To do list",
@@ -22,7 +22,7 @@ const projectInfoData = [
     tech3: "MaterialUI",
   },
   {
-    link: "https://github.com/CristoforosChoras/to-do-list-react",
+    link: "https://github.com/CristoforosChoras/personal-portfolio-v2-react",
     target: "_blank",
     img: require("../../images/portfolio.png"),
     heading: "Portfolio Project",

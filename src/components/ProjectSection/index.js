@@ -1,5 +1,4 @@
 import React from "react";
-
 import projectInfoData from "./data";
 
 import {
